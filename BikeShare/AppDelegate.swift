@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  BikeShare
 //
-//  Created by Daniel Slone on 3/4/21.
-//
 
 import UIKit
 
