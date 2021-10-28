@@ -4,34 +4,20 @@
 //
 
 import Foundation
-import UIKit.UIFont
 
 struct BikeShareCellViewModel: Hashable {
     let id: String
-    let name: String
-    let city: String
-    let country: String
 
-    private let foregroundColor = BrandColor.labelColor.color
-
+    @TextTheme(BikeShareBranding.title)
+    private var title
     var titleAttributedString: NSAttributedString {
-        NSAttributedString(
-            string: name,
-            attributes: [
-                .foregroundColor: foregroundColor,
-                .font: UIFont.systemFont(ofSize: 18, weight: .bold)
-            ]
-        )
+        _title.attributedValue
     }
 
-    var locationAttributedString: NSAttributedString {
-        NSAttributedString(
-            string: "\(city), \(country)",
-            attributes: [
-                .foregroundColor: foregroundColor,
-                .font: UIFont.systemFont(ofSize: 14, weight: .light)
-            ]
-        )
+    @TextTheme(BikeShareBranding.subtitle)
+    private var subheader
+    var subheaderAttributedString: NSAttributedString {
+        _subheader.attributedValue
     }
 
     func hash(into hasher: inout Hasher) {
@@ -40,5 +26,11 @@ struct BikeShareCellViewModel: Hashable {
 
     static func == (lhs: BikeShareCellViewModel, rhs: BikeShareCellViewModel) -> Bool {
       lhs.id == rhs.id
+    }
+
+    init(id: String, name: String, city: String, country: String) {
+        self.id = id
+        self.title = name
+        self.subheader = "\(city), \(country)"
     }
 }

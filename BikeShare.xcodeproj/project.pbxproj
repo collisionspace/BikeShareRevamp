@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063320BD25F9EF120051325E /* mock_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 063320BC25F9EF120051325E /* mock_user.json */; };
+		064A44E325FB4B7400272537 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44E225FB4B7400272537 /* Typography.swift */; };
+		064A44EC25FB543700272537 /* BikeShareBranding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44EB25FB543700272537 /* BikeShareBranding.swift */; };
+		064A44F125FB545200272537 /* BrandingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44F025FB545200272537 /* BrandingStyle.swift */; };
+		064A44F625FB547B00272537 /* TypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44F525FB547B00272537 /* TypographyStyle.swift */; };
+		064A44FB25FB54B300272537 /* BikeShareTypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44FA25FB54B300272537 /* BikeShareTypographyStyle.swift */; };
 		06BD0B9F25F1048300F7ED78 /* BikeListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD0B9E25F1048300F7ED78 /* BikeListInteractorTests.swift */; };
 		06BD0BA525F1055E00F7ED78 /* mock_bike_share.json in Resources */ = {isa = PBXBuildFile; fileRef = 06BD0BA425F1055E00F7ED78 /* mock_bike_share.json */; };
 		06BD0BB125F1062700F7ED78 /* MockBikeShareWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD0BAC25F105B200F7ED78 /* MockBikeShareWorker.swift */; };
@@ -23,6 +29,7 @@
 		06BD0C0525F1124900F7ED78 /* BikeShareCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD0C0425F1124900F7ED78 /* BikeShareCellViewModel.swift */; };
 		06BD0C0E25F112C600F7ED78 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD0C0D25F112C600F7ED78 /* Section.swift */; };
 		06BD0C1625F112F000F7ED78 /* BrandColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD0C1525F112F000F7ED78 /* BrandColorTests.swift */; };
+		06D4DBF025FECE5A00C4BF90 /* DisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4DBEF25FECE5A00C4BF90 /* DisplayType.swift */; };
 		06E3DBC125F0B5FB002D73D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DBC025F0B5FB002D73D2 /* AppDelegate.swift */; };
 		06E3DBC325F0B5FB002D73D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DBC225F0B5FB002D73D2 /* SceneDelegate.swift */; };
 		06E3DBCA25F0B5FE002D73D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E3DBC925F0B5FE002D73D2 /* Assets.xcassets */; };
@@ -50,7 +57,6 @@
 		06E3DC8525F0CED6002D73D2 /* BikeShareCityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DC8425F0CED6002D73D2 /* BikeShareCityResponse.swift */; };
 		06E3DC8D25F0D062002D73D2 /* BikeShareWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DC8C25F0D062002D73D2 /* BikeShareWorker.swift */; };
 		06E3DC9225F0D931002D73D2 /* DiffableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DC9125F0D931002D73D2 /* DiffableTableView.swift */; };
-		06E3DCA525F0DEE2002D73D2 /* BikeListRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DCA425F0DEE2002D73D2 /* BikeListRoutable.swift */; };
 		06E3DCAE25F0DF1E002D73D2 /* MapUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DCAD25F0DF1E002D73D2 /* MapUseCase.swift */; };
 		06E3DCB625F0DF38002D73D2 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DCB525F0DF38002D73D2 /* MapInteractor.swift */; };
 		06E3DCBE25F0E4CD002D73D2 /* BikeShareRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E3DCBD25F0E4CD002D73D2 /* BikeShareRepository.swift */; };
@@ -80,6 +86,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063320BC25F9EF120051325E /* mock_user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_user.json; sourceTree = "<group>"; };
+		064A44E225FB4B7400272537 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		064A44EB25FB543700272537 /* BikeShareBranding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareBranding.swift; sourceTree = "<group>"; };
+		064A44F025FB545200272537 /* BrandingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandingStyle.swift; sourceTree = "<group>"; };
+		064A44F525FB547B00272537 /* TypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyStyle.swift; sourceTree = "<group>"; };
+		064A44FA25FB54B300272537 /* BikeShareTypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareTypographyStyle.swift; sourceTree = "<group>"; };
 		06BD0B9E25F1048300F7ED78 /* BikeListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListInteractorTests.swift; sourceTree = "<group>"; };
 		06BD0BA425F1055E00F7ED78 /* mock_bike_share.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_bike_share.json; sourceTree = "<group>"; };
 		06BD0BAC25F105B200F7ED78 /* MockBikeShareWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBikeShareWorker.swift; sourceTree = "<group>"; };
@@ -96,6 +108,7 @@
 		06BD0C0425F1124900F7ED78 /* BikeShareCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareCellViewModel.swift; sourceTree = "<group>"; };
 		06BD0C0D25F112C600F7ED78 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		06BD0C1525F112F000F7ED78 /* BrandColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColorTests.swift; sourceTree = "<group>"; };
+		06D4DBEF25FECE5A00C4BF90 /* DisplayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayType.swift; sourceTree = "<group>"; };
 		06E3DBBD25F0B5FB002D73D2 /* BikeShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E3DBC025F0B5FB002D73D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E3DBC225F0B5FB002D73D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,7 +142,6 @@
 		06E3DC8425F0CED6002D73D2 /* BikeShareCityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareCityResponse.swift; sourceTree = "<group>"; };
 		06E3DC8C25F0D062002D73D2 /* BikeShareWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareWorker.swift; sourceTree = "<group>"; };
 		06E3DC9125F0D931002D73D2 /* DiffableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableTableView.swift; sourceTree = "<group>"; };
-		06E3DCA425F0DEE2002D73D2 /* BikeListRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListRoutable.swift; sourceTree = "<group>"; };
 		06E3DCAD25F0DF1E002D73D2 /* MapUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUseCase.swift; sourceTree = "<group>"; };
 		06E3DCB525F0DF38002D73D2 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
 		06E3DCBD25F0E4CD002D73D2 /* BikeShareRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareRepository.swift; sourceTree = "<group>"; };
@@ -166,6 +178,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		064A44E725FB4B8300272537 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				064A44F025FB545200272537 /* BrandingStyle.swift */,
+				064A44F525FB547B00272537 /* TypographyStyle.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		06BD0B8F25F103E500F7ED78 /* Bike Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +201,12 @@
 		06BD0BA325F1054800F7ED78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				064A44E725FB4B8300272537 /* Protocols */,
 				06BD0BF725F1100D00F7ED78 /* BrandColor.swift */,
+				064A44FA25FB54B300272537 /* BikeShareTypographyStyle.swift */,
+				064A44E225FB4B7400272537 /* Typography.swift */,
+				06D4DBEF25FECE5A00C4BF90 /* DisplayType.swift */,
+				064A44EB25FB543700272537 /* BikeShareBranding.swift */,
 				06BD0BA425F1055E00F7ED78 /* mock_bike_share.json */,
 			);
 			path = Resources;
@@ -283,6 +309,7 @@
 				06E3DBC025F0B5FB002D73D2 /* AppDelegate.swift */,
 				06E3DBC225F0B5FB002D73D2 /* SceneDelegate.swift */,
 				06E3DBFD25F0BE5C002D73D2 /* BikeShareTabBarViewController.swift */,
+				063320BC25F9EF120051325E /* mock_user.json */,
 				06BD0C0C25F112BC00F7ED78 /* Models */,
 				06BD0BA325F1054800F7ED78 /* Resources */,
 				06BD0BC525F10A0700F7ED78 /* Data */,
@@ -353,7 +380,6 @@
 			children = (
 				06E3DC4825F0C763002D73D2 /* BikeListUseCase.swift */,
 				06E3DC5625F0C7B7002D73D2 /* BikeListPresentation.swift */,
-				06E3DCA425F0DEE2002D73D2 /* BikeListRoutable.swift */,
 				06E3DC2B25F0C67A002D73D2 /* BikeListDisplay.swift */,
 			);
 			path = Protocols;
@@ -541,6 +567,7 @@
 				06E3DC2725F0C602002D73D2 /* BikeListViewController.xib in Resources */,
 				06E3DC1625F0C328002D73D2 /* MapViewController.xib in Resources */,
 				06E3DBCA25F0B5FE002D73D2 /* Assets.xcassets in Resources */,
+				063320BD25F9EF120051325E /* mock_user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +592,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E3DCA525F0DEE2002D73D2 /* BikeListRoutable.swift in Sources */,
 				06E3DC5F25F0CCD0002D73D2 /* BikeListScene.swift in Sources */,
 				06E3DC4925F0C763002D73D2 /* BikeListUseCase.swift in Sources */,
 				06E3DC4F25F0C78A002D73D2 /* BikeListInteractor.swift in Sources */,
@@ -574,7 +600,9 @@
 				06BD0BDD25F10ADB00F7ED78 /* DomainBikeShare.swift in Sources */,
 				06E3DC8525F0CED6002D73D2 /* BikeShareCityResponse.swift in Sources */,
 				06BD0BD825F10AA400F7ED78 /* Repository.swift in Sources */,
+				064A44E325FB4B7400272537 /* Typography.swift in Sources */,
 				06BD0C0525F1124900F7ED78 /* BikeShareCellViewModel.swift in Sources */,
+				06D4DBF025FECE5A00C4BF90 /* DisplayType.swift in Sources */,
 				06E3DC5725F0C7B7002D73D2 /* BikeListPresentation.swift in Sources */,
 				06E3DC7525F0CD98002D73D2 /* InitialViewFactory.swift in Sources */,
 				06E3DC6925F0CD65002D73D2 /* TabScene.swift in Sources */,
@@ -585,10 +613,13 @@
 				06E3DCBE25F0E4CD002D73D2 /* BikeShareRepository.swift in Sources */,
 				06E3DC6425F0CCE9002D73D2 /* MapScene.swift in Sources */,
 				06BD0BF225F10CA700F7ED78 /* BikeShareTableViewCell.swift in Sources */,
+				064A44FB25FB54B300272537 /* BikeShareTypographyStyle.swift in Sources */,
+				064A44F625FB547B00272537 /* TypographyStyle.swift in Sources */,
 				06E3DC2025F0C589002D73D2 /* RequestError.swift in Sources */,
 				06E3DC2C25F0C67A002D73D2 /* BikeListDisplay.swift in Sources */,
 				06E3DCCB25F0EA39002D73D2 /* MapPresenter.swift in Sources */,
 				06E3DCB625F0DF38002D73D2 /* MapInteractor.swift in Sources */,
+				064A44F125FB545200272537 /* BrandingStyle.swift in Sources */,
 				06E3DBC125F0B5FB002D73D2 /* AppDelegate.swift in Sources */,
 				06E3DBC325F0B5FB002D73D2 /* SceneDelegate.swift in Sources */,
 				06E3DC1B25F0C546002D73D2 /* Networking.swift in Sources */,
@@ -599,6 +630,7 @@
 				06E3DCAE25F0DF1E002D73D2 /* MapUseCase.swift in Sources */,
 				06E3DCD025F0EAEE002D73D2 /* MapDisplay.swift in Sources */,
 				06BD0BF825F1100D00F7ED78 /* BrandColor.swift in Sources */,
+				064A44EC25FB543700272537 /* BikeShareBranding.swift in Sources */,
 				06E3DC2625F0C602002D73D2 /* BikeListViewController.swift in Sources */,
 				06E3DC8025F0CDC2002D73D2 /* ViewFactory.swift in Sources */,
 				06E3DC1525F0C328002D73D2 /* MapViewController.swift in Sources */,

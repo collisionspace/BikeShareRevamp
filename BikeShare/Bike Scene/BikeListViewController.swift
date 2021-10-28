@@ -12,7 +12,7 @@ final class BikeListViewController: UIViewController, DiffableTableView {
 
     lazy var dataSource: DataSource = {
         DataSource(tableView: tableView) { (tableView, indexPath, viewModel) -> BikeShareTableViewCell? in
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! BikeShareTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "bikeShareCell") as! BikeShareTableViewCell
             cell.configure(with: viewModel)
             return cell
         }
@@ -45,7 +45,7 @@ final class BikeListViewController: UIViewController, DiffableTableView {
     private func configureTableView() {
         tableView.register(
             UINib(nibName: "BikeShareTableViewCell", bundle: nil),
-            forCellReuseIdentifier: "cell"
+            forCellReuseIdentifier: "bikeShareCell"
         )
         applySnapshot(viewModel: [], animatingDifferences: false)
     }

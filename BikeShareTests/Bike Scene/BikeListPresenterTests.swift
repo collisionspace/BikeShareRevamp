@@ -9,9 +9,9 @@ import XCTest
 class BikeListPresenterTests: XCTestCase {
 
     private class BikeListPresenterSpy: BikeListDisplay {
-        var bikeViewModels = [BikeShareCityViewModel]()
+        var bikeViewModels = [BikeShareCellViewModel]()
 
-        func showBikes(viewModels: [BikeShareCityViewModel]) {
+        func showBikes(viewModels: [BikeShareCellViewModel]) {
             self.bikeViewModels = viewModels
         }
     }
@@ -26,7 +26,7 @@ class BikeListPresenterTests: XCTestCase {
 
         let firstViewModel = spy.bikeViewModels.first
         let domain = DomainBikeShare.domain
-        let viewModel = BikeShareCityViewModel(
+        let viewModel = BikeShareCellViewModel(
             id: domain.id,
             name: domain.name,
             city: domain.location.city,

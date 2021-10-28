@@ -24,9 +24,17 @@ final class BikeShareRepository: Repository {
             }
         }
     }
+
+    func refresh(completion: @escaping (Result<T, Error>) -> Void) {
+        worker.fetchBikes { [unowned self] result in
+            let domain = result.mapToDomain()
+            self.cachedResponse = domain
+            completion(domain)
+        }
+    }
 }
 
-extension Result where Success == BikeShareCityResponse, Failure == Error {
+private extension Result where Success == BikeShareCityResponse, Failure == Error {
 
     func mapToDomain() -> Result<DomainBikeShareCityResponse, Error> {
         switch self {

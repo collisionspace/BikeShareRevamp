@@ -1,0 +1,12 @@
+{
+    "email": "x-user@zoox.com",
+    "firstName": "Mock",
+    "lastName": "Server",
+    "phoneNumber": "0400123456",
+    "userConfig": {
+        "hailMode": "VH6_DEMO_CHESS",
+        "pairedRobots": {
+            "items": []
+        }
+    }
+}

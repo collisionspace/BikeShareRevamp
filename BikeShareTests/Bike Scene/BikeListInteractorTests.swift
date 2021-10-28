@@ -11,9 +11,14 @@ class BikeListInteractorTests: XCTestCase {
     private class BikeListInteractorSpy: BikeListPresentation {
 
         var bikeShares = [DomainBikeShare]()
+        var error: Error?
 
         func present(bikeShares: [DomainBikeShare]) {
             self.bikeShares = bikeShares
+        }
+
+        func present(error: Error) {
+            self.error = error
         }
     }
 

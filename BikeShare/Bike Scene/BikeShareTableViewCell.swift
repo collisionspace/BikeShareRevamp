@@ -12,6 +12,6 @@ final class BikeShareTableViewCell: UITableViewCell {
 
     func configure(with viewModel: BikeShareCellViewModel) {
         titleLabel.attributedText = viewModel.titleAttributedString
-        subtitleLabel.attributedText = viewModel.locationAttributedString
+        subtitleLabel.attributedText = viewModel.subheaderAttributedString
     }
 }
