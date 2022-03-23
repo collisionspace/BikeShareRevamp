@@ -15,10 +15,10 @@ final class MapInteractor: MapUseCase {
     }
 
     func fetchData() {
-        repository.getAll { [unowned self] result in
+        repository.getAll { [weak self] result in
             switch result {
             case let .success(response):
-                self.presenter.presentAnnotations(bikeShares: response.shares)
+                self?.presenter.presentAnnotations(bikeShares: response.shares)
             case let .failure(error):
                 print(error)
             }

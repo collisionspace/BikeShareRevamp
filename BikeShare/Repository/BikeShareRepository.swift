@@ -17,18 +17,18 @@ final class BikeShareRepository: Repository {
         if let response = cachedResponse {
             completion(response)
         } else {
-            worker.fetchBikes { [unowned self] result in
+            worker.fetchBikes { [weak self] result in
                 let domain = result.mapToDomain()
-                self.cachedResponse = domain
+                self?.cachedResponse = domain
                 completion(domain)
             }
         }
     }
 
     func refresh(completion: @escaping (Result<T, Error>) -> Void) {
-        worker.fetchBikes { [unowned self] result in
+        worker.fetchBikes { [weak self] result in
             let domain = result.mapToDomain()
-            self.cachedResponse = domain
+            self?.cachedResponse = domain
             completion(domain)
         }
     }

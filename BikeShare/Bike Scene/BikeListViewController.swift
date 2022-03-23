@@ -54,8 +54,8 @@ final class BikeListViewController: UIViewController, DiffableTableView {
 extension BikeListViewController: BikeListDisplay {
 
     func showBikes(viewModels: [BikeShareCellViewModel]) {
-        DispatchQueue.main.async { [unowned self] in
-            applySnapshot(viewModel: viewModels, animatingDifferences: true)
+        DispatchQueue.main.async { [weak self] in
+            self?.applySnapshot(viewModel: viewModels, animatingDifferences: true)
         }
     }
 }

@@ -34,7 +34,9 @@ final class MapViewController: UIViewController {
 extension MapViewController: MapDisplay {
 
     func showAnnotations(viewModels: [MapAnnotationViewModel]) {
-        let annotations = viewModels.map { BikeShareAnnotation(viewModel: $0) }
-        mapView.addAnnotations(annotations)
+        DispatchQueue.main.async { [weak self] in
+            let annotations = viewModels.map { BikeShareAnnotation(viewModel: $0) }
+            self?.mapView.addAnnotations(annotations)
+        }
     }
 }

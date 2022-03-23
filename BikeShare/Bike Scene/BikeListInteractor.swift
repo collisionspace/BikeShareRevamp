@@ -14,11 +14,12 @@ final class BikeListInteractor: BikeListUseCase {
     }
 
     func fetchBikes() {
-        worker.getAll { [unowned self] result in
+        worker.getAll { [weak self] result in
+            guard let self = self else { return }
             switch result {
             case let .success(response):
                 self.bikeShares = response.shares
-                self.presenter.present(bikeShares: bikeShares)
+                self.presenter.present(bikeShares: self.bikeShares)
             case let .failure(error):
                 self.presenter.present(error: error)
             }

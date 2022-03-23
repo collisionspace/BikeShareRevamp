@@ -5,6 +5,8 @@
 //  Created by Daniel Slone on 3/15/21.
 //
 
+import UIKit
+
 enum DisplayType {
     case title
     case subtitle

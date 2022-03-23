@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		063320BD25F9EF120051325E /* mock_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 063320BC25F9EF120051325E /* mock_user.json */; };
 		064A44E325FB4B7400272537 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44E225FB4B7400272537 /* Typography.swift */; };
 		064A44EC25FB543700272537 /* BikeShareBranding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44EB25FB543700272537 /* BikeShareBranding.swift */; };
 		064A44F125FB545200272537 /* BrandingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A44F025FB545200272537 /* BrandingStyle.swift */; };
@@ -86,7 +85,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		063320BC25F9EF120051325E /* mock_user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_user.json; sourceTree = "<group>"; };
 		064A44E225FB4B7400272537 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		064A44EB25FB543700272537 /* BikeShareBranding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareBranding.swift; sourceTree = "<group>"; };
 		064A44F025FB545200272537 /* BrandingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandingStyle.swift; sourceTree = "<group>"; };
@@ -309,7 +307,6 @@
 				06E3DBC025F0B5FB002D73D2 /* AppDelegate.swift */,
 				06E3DBC225F0B5FB002D73D2 /* SceneDelegate.swift */,
 				06E3DBFD25F0BE5C002D73D2 /* BikeShareTabBarViewController.swift */,
-				063320BC25F9EF120051325E /* mock_user.json */,
 				06BD0C0C25F112BC00F7ED78 /* Models */,
 				06BD0BA325F1054800F7ED78 /* Resources */,
 				06BD0BC525F10A0700F7ED78 /* Data */,
@@ -567,7 +564,6 @@
 				06E3DC2725F0C602002D73D2 /* BikeListViewController.xib in Resources */,
 				06E3DC1625F0C328002D73D2 /* MapViewController.xib in Resources */,
 				06E3DBCA25F0B5FE002D73D2 /* Assets.xcassets in Resources */,
-				063320BD25F9EF120051325E /* mock_user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
