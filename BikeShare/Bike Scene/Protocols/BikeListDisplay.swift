@@ -3,6 +3,6 @@
 //  BikeShare
 //
 
-protocol BikeListDisplay: class {
+protocol BikeListDisplay: AnyObject {
     func showBikes(viewModels: [BikeShareCellViewModel])
 }
