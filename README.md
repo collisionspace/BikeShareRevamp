@@ -14,4 +14,4 @@ Things to do
 
 So this project has 2 tabs that shows bike share cities. First tab is a list of it and the second tab is a map with annotations. 
 
-The architecture is Clean Swift. The setup utilizies a ViewScene & TabScene which creates a View per tab. Also takes advantage of protocols to allow for depedency injection and mocking. Created a TextTheme property wrapper for allowing ease of use for styling UI, need to update this to allow for dynamic type.
+The architecture is Clean Swift. The setup utilizies a ViewScene & TabScene which creates a View per tab. Also takes advantage of protocols to allow for depedency injection and mocking. Created a TextTheme property wrapper for allowing ease of use for styling UI, need to update this to allow for dynamic type. Dark mode is support as well.
